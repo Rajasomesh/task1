@@ -20,6 +20,7 @@ header {
   align-items: center;
   padding: 15px 30px;
   background-color: #333;
+  
 }
 
 .navbarlogo img {
@@ -72,9 +73,12 @@ header {
   border: 3px solid #555;
   border-radius: 12px;
   background-color: #fff;
+  color: #fff;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
-
+/* body{
+    background-image: url("\back.jpeg");
+} */
 .cta-btn {
   display: inline-block;
   margin-top: 20px;
@@ -89,6 +93,9 @@ header {
 
 .cta-btn:hover {
   background-color: darkred;
+}
+.bodyimage{
+   background-image: url("back.jpeg");
 }
 
 /* Footer */
